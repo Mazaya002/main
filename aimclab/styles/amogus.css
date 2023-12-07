@@ -1,0 +1,90 @@
+html, body {
+    height: 100%; 
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+main {
+    flex-grow: 1; 
+}
+
+.about-us {
+    text-align: center;
+    padding: 20px;
+}
+
+.images img {
+    width: 30%;  
+    margin: 10px; 
+    border-radius: 10px; 
+}
+
+.game-description {
+    margin-top: 20px;
+    font-size: 18px; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#registerBtn {
+    border-radius: 15px;  
+    font-weight: bold;  
+    background-color: #00FF00;  
+    color: red; 
+    padding: 10px 20px;  
+    border: none;  
+    cursor: pointer;  
+    transition: background-color 0.3s;  
+}
+
+#registerBtn:hover {
+    background-color: #00CC00;  
+}
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #555;
+}
+
+#banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a, nav button {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav button {
+    padding: 5px 10px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #777;
+}
